@@ -1,0 +1,746 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+
+.nav-left img {
+    width: 90px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    border: none;
+    color: rgb(197, 196, 196);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(./assets/hero-img.jpeg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section h2 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1ce783;
+    margin-top: 15px;
+}
+
+.hero-section img {
+    width: 45%;
+    margin-top: 15px;
+}
+
+.hero-section h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.disney-bundle-btn {
+    width: 45%;
+    padding: 14px 50px;
+    color: rgb(24, 23, 23);
+    background-color: #1ce783;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.hero-first-a {
+
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.hero-second-a {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* SECTION-2 */
+.section-2 {
+    width: 100;
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-2 h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1ce783;
+    margin-bottom: 15px;
+}
+
+.section-2 h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.section-2 p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.section-2-images {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* margin-bottom: 15px; */
+}
+
+.section-2-images img {
+    width: 23%;
+
+}
+
+/* SECTION-3 */
+.section-3 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-3 h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1ce783;
+    margin-bottom: 15px;
+}
+
+.section-3 h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-3 p {
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-3 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* SECTION-4 */
+.section-4 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./assets/section-2-img.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px 25px 25px 150px;
+}
+
+.section-4-nav {
+    width: 100%;
+    text-align: left;
+    color: #e8eaed;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section-4-nav span {
+    margin: 5px;
+}
+
+.section-4 h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.p1 {
+    width: 35%;
+    font-size: 17px;
+    font-weight: 600;
+    color: #e8eaed;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.p2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e0e0e1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec-4-channels{
+    margin-top: 35px;
+}
+.sec-4-channels img{
+    background-color: #fff;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+/* SECTION-5 */
+.section-5 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-5-headings {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 70px;
+}
+
+.section-5-headings h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-5-headings p {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.section-5-plans {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #000;
+}
+
+.plans-top-1,
+.plans-top-2 {
+    width: 21%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 5px;
+    border-top: 1px solid rgb(123, 123, 123);
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.plans-top-1 h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.plans-top-1 img {
+    width: 55px;
+}
+
+.plans-top-2 h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.plans-top-2 img {
+    width: 200px;
+}
+
+.plans-top-3,
+.plans-top-4 {
+    width: 21%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-top: rgb(123, 123, 123) 1px solid;
+    border-bottom: rgb(123, 123, 123) 1px solid;
+    padding: 15px 5px;
+}
+
+.plans-top-3 h1 {
+    width: 120px;
+    padding: 4px 10px;
+    background-color: #1ce783;
+    border: none;
+    border-radius: 50px;
+    color: rgb(37, 36, 36);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.plans-top-3 h3 {
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.plans-top-3 h2 {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.plan-btn {
+    width: 240px;
+    padding: 13px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.plans-top-4 {
+    background-color: #272c34;
+}
+
+.plans-top-4 h3 {
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.plans-top-4 h2 {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+/* SECTION-6 PLAN BENEFITS */
+.section-5-plan-benefits {
+    width: 90%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefits {
+    width: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: auto;
+}
+
+.benefits-lastchild {
+    width: 25% !important;
+    height: 100%;
+    background-color: #272c34;
+    min-height: 8vh;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.benefits-lastchild h1 {
+    height: 100%;
+}
+
+.benefits p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(226, 226, 226);
+    width: 42%;
+    min-height: 8vh;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding-top: 20px;
+
+}
+
+.benefits span {
+    width: 33%;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+    min-height: 8vh;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.benefits span h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.benefits span img {
+    width: 8.5%;
+    text-align: center;
+}
+
+.benefits-lastchild img {
+    width: 12.5% !important;
+    text-align: center;
+}
+
+.benefits h5 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(122, 122, 122);
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    min-height: 45vh;
+    background-color: #e8eaed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #272c34;
+}
+
+.footer-main {
+    width: 85%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-main ul {
+    width: 125px;
+    list-style: none;
+    line-height: 30px;
+    font-size: 14.5px;
+    margin-top: 10px;
+}
+
+.footer-copyright-section {
+    width: 85%;
+    height: 35%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.icons i {
+    font-size: 22px;
+}
+
+.quick-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.quick-links li {
+    width: 150px;
+    font-size: 12.5px;
+    margin-top: 10px;
+}
+
+/* MOBILE VIEW */
+
+@media(max-width:768px) {
+
+    .hero-section h2 {
+        font-size: 12px;
+    }
+
+    .hero-section img {
+        width: 50%;
+    }
+
+    .hero-section h1 {
+        font-size: 21px;
+        width: 80%;
+
+    }
+
+    .disney-bundle-btn {
+        width: 60%;
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+
+    .hero-second-a {
+        font-size: 16px;
+    }
+
+
+    /* SECTION-2 */
+    .section-2 {
+        padding: 55px 1px;
+    }
+
+    .section-2 h2 {
+        font-size: 14px;
+    }
+
+    .section-2 h1 {
+        font-size: 25px;
+    }
+
+    .section-2 p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-2-images {
+        margin-top: 25px;
+        width: 82%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-2-images img {
+        width: 170px;
+    }
+
+
+    /* SECTION-3 */
+    .section-3 {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-3 h2 {
+        font-size: 12px;
+    }
+
+    .section-3 h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section-3 p {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    .section-3 a {
+        font-size: 16px;
+    }
+
+    /* SECTION-4 */
+    .section-4 {
+        width: 100%;
+        min-height: 120vh;
+        background-image: url(./assets/section\ 2\ mobile\ img.jpg) !important;
+        background-size: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 25px 25px 25px 25px;
+    }
+
+.section-4-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.p1 {
+    width: 95%;
+}
+
+
+/* SECTION-5 */
+.section-5 {
+    width: 100%;
+    min-height: 300vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-5-headings {
+    width: 100%;
+    padding: 35px 20px;
+}
+
+.section-5-headings h1 {
+    font-size: 30px;
+}
+
+.section-5-headings p {
+    font-size: 17px;
+}
+
+.section-5-plans {
+    width: 95%;
+    flex-direction: column;
+    position: static;
+   
+}
+
+.plans-top-1,
+.plans-top-2 {
+    width: 100%;
+}
+
+
+.plans-top-3,
+.plans-top-4 {
+    width: 100%;
+}
+
+.p
+
+/* SECTION-6 PLAN BENEFITS */
+.section-5-plan-benefits {
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefits {
+    width: 95%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefits-lastchild {
+    width: 100% !important;
+}
+
+.benefits p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(226, 226, 226);
+    width: 100%;
+    min-height: 8vh;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding-top: 20px;
+
+}
+
+.benefits span {
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+    min-height: 8vh;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.benefits span h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.benefits span img {
+    width: 8.5%;
+    text-align: center;
+}
+
+.benefits-lastchild img {
+    width: 12.5% !important;
+    text-align: center;
+}
+
+.benefits h5 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(122, 122, 122);
+}
+
+
+}
